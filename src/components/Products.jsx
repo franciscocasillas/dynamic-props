@@ -1,4 +1,5 @@
 import Product from "./Product";
+import { products } from "../data/products";
 
 function Product({ products }) {
 	return (
