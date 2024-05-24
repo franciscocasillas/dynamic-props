@@ -1,7 +1,7 @@
 import Product from "./Product";
 import { products } from "../data/products";
 
-function Product({ products }) {
+function Products() {
 	return (
 		<section>
 			<h1>Our products</h1>
@@ -15,3 +15,5 @@ function Product({ products }) {
 		</section>
 	);
 }
+
+export default Products;
